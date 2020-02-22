@@ -9,10 +9,10 @@ let img = document.querySelector(".cx-5"),
 
      console.log("dwad");
 
-     let id = setInterval(frame, 12);
+     let id = setInterval(frame, 10);
 
      function frame() {
-        if (pos == 300) {
+        if (pos == 180) {
           clearInterval(id);
     //    div.style.backgroundColor =   'blue';
     //    div.style.left =  "3000px";
