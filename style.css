@@ -3,12 +3,34 @@
 } */
 
 .cx-5{
+    /* position: absolute; */
     width: 100px;
     /* margin-top: 200px;
     right: 100px; */
 
 }
 .img{
-    background-color: black;
+    position: absolute;
+
+    background-color:white;
     width: fit-content;
+}
+.wrapper{
+    width: 900px;
+    height: 2000px;
+    background-color: blue;
+}
+.btn{
+    position: absolute;
+    margin-top: 50px;
+    width: 30px;
+    
+    /* text-align: center; */
+    height: 25px;
+
+}
+h4{
+    text-align: center;
+
+    font-size: 5px;
 }

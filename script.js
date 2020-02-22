@@ -9,20 +9,20 @@ let img = document.querySelector(".cx-5"),
 
      console.log("dwad");
 
-     let id = setInterval(frame, 100);
+     let id = setInterval(frame, 12);
 
      function frame() {
-        if (pos == 3000) {
+        if (pos == 300) {
           clearInterval(id);
-       div.style.backgroundColor =   'blue';
+    //    div.style.backgroundColor =   'blue';
     //    div.style.left =  "3000px";
        
         } else{
         
-            pos += 300;
+            pos ++;
        div.style.left =  pos + 'px';
-       div.style.top =  pos + 'px';
-       div.style.backgroundColor =   'red';
+    //    div.style.top =  pos + 'px';
+    //    div.style.backgroundColor =   'red';
     //    div.style.backgroundColor =   'blue';
 
 
